@@ -1,4 +1,5 @@
 export enum GlobalColors {
     charcoal = '#36454F',
-    white = '#fff'
+    white = '#fff',
+    theme = '#F79300'
 }

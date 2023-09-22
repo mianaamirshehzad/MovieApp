@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ProgressViewIOSComponent } from 'react-native';
+import { GlobalColors } from '../assets/Colors';
 
 const CustomButton = (props) => {
     return (
@@ -14,7 +15,7 @@ const CustomButton = (props) => {
 
 const styles = StyleSheet.create({
     btn: {
-        backgroundColor: '#F79300',
+        backgroundColor: GlobalColors.theme,
         width: '90%',
         borderRadius: 10,
         shadowColor: '#000000',
