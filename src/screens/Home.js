@@ -9,11 +9,11 @@ import { Colors, GlobalColors } from '../assets/Colors';
 const Home = (props) => {
     return (
         <SafeAreaView style={styles.container}>
-            <View  style={styles.headContainer} >
+            {/* <View  style={styles.headContainer} >
                 <Text style={styles.head} >
                     DaruStrong
                 </Text>
-            </View>
+            </View> */}
             <View
                 style={styles.ban}
             >
@@ -31,7 +31,8 @@ const Home = (props) => {
                 </ScrollView>
             </View>
             <View style={styles.btnContainer} >
-                <CustomButton title='Add Workout to my Calendar' />
+                <CustomButton title='Add Workout to my Calendar'
+                onPress = {() => props.navigation.navigate('BottomTabs')} />
             </View>
         </SafeAreaView>
     )

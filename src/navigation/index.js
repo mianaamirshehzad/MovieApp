@@ -4,6 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import TopTabs from './TopTabs';
 import Home from '../screens/Home';
 import MyCalender from '../screens/MyCalendar';
+import BottomTabs from './BottomTabs';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,10 @@ const MyStack = () => {
         <Stack.Screen
           name="TopTabs"
           component={TopTabs}
+        /> 
+        <Stack.Screen
+          name="BottomTabs"
+          component={BottomTabs}
         /> 
       </Stack.Navigator>
     </NavigationContainer>
