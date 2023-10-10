@@ -29,6 +29,9 @@ function BottomTabs() {
             <Tab.Screen name="Exercise" component={Exercise} />
             <Tab.Screen name="Messages" component={Messages} />
             <Tab.Screen name="Activity" component={Activity} />
+            <Tab.Screen name="Activity" component={Activity} />
+            <Tab.Screen name="Activity" component={Activity} />
+            <Tab.Screen name="Activity" component={Activity} />
         </Tab.Navigator>
     );
 }

@@ -5,6 +5,10 @@ const Exercise = () => {
   return (
     <View>
       <Text>Exercise</Text>
+      <Text>Exercise</Text>
+      <Text>Exercise</Text>
+      <Text>Exercise</Text>
+      <Text>Exercise</Text>
     </View>
   )
 }

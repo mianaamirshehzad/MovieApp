@@ -15,6 +15,7 @@ function TopTabs() {
     }} >
       <Tab.Screen name="S&C Programs" component={Home} />
       <Tab.Screen name="My Calender" component={MyCalender} />
+      <Tab.Screen name="My Calender" component={MyCalender} />
     </Tab.Navigator>
   );
 }
