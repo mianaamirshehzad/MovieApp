@@ -23,7 +23,7 @@ const Home = (props) => {
                     <Banner source={ImagesPath.boxing2} text='The Grind: Grapping & Wrestling' />
                     <Banner source={ImagesPath.boxing3} text='Combat Kettlebel: only' />
                     <Banner source={ImagesPath.boxing1} text='The Grind: Grapping & Wrestling' />
-                    <Banner source={ImagesPath.boxing2} text='Heavy Hitter Boxing Program' />
+                
                     <Banner source={ImagesPath.boxing3} text='Heavy Hitter Boxing Program' />
                     <Banner source={ImagesPath.boxing1} text='Heavy Hitter Boxing Program' />
                     <Banner source={ImagesPath.boxing1} text='Heavy Hitter Boxing Program' />

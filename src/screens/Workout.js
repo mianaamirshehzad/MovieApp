@@ -5,6 +5,8 @@ const Workout = () => {
   return (
     <View>
       <Text>Workout</Text>
+      <Text>Workout</Text>
+      <Text>Workout</Text>
     </View>
   )
 }

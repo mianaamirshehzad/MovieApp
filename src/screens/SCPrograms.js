@@ -6,6 +6,8 @@ const SCProgram = () => {
   return (
     <View>
       <Text>SCProgram</Text>
+      <Text>SCProgram</Text>
+      <Text>SCProgram</Text>
     </View>
   )
 };
